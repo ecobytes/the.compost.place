@@ -9,7 +9,7 @@ logo_url: https://avatars.githubusercontent.com/u/6887626
 collections:
   - name: compost
     label: Compost
-    folder: public/compost
+    folder: pages/compost
     create: true
     fields:
       - name: title
