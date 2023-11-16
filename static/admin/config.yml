@@ -6,7 +6,6 @@ public_folder: "/media"
 site_url: https://the.compost.place
 display_url: https://the.compost.place
 logo_url: https://avatars.githubusercontent.com/u/6887626
-search: true
 collections:
   - name: compost
     label: Compost
