@@ -24,8 +24,8 @@ jobs:
           deno-version: v1.x
 
       - name: Build site
-        # Change if using non-default input/output directories
-        run: deno run -A https://deno.land/x/ter/main.ts -i pages -o _site
+        # Change parameters in deno.json
+        run: deno task build
 
       - name: Fix permissions
         run: |
