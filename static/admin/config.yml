@@ -21,38 +21,49 @@ collections:
       - name: title
         label: Title
         widget: string
+        required: false
       - name: description
         label: Description
         widget: string
+        required: false
       - name: tags
         label: Tags
         widget: list
+        required: false
       - name: date
         label: Date
         widget: datetime
+        required: false
       - name: dateUpdated
         label: Date updated
         widget: datetime
+        required: false
       - name: pinned
         label: Pinned
         widget: boolean
+        required: false
       - name: unlisted
         label: Unlisted
         widget: boolean
+        required: false
       - name: draft
         label: Draft
         widget: boolean
+        required: false
       - name: layout
         label: Layout
         widget: select
         options: ['list', 'log', 'grid']
         default: list
+        required: false
       - name: toc
         label: Table of Contents
         widget: boolean
+        required: false
       - name: showHeader
         label: Show header
         widget: boolean
-      - {label: "Body", name: "body", widget: "markdown"}
+        required: false
+      - {label: "Body", name: "body", widget: "markdown", required: false}
     extension: md
     format: yaml-frontmatter
