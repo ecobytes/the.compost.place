@@ -53,5 +53,6 @@ collections:
       - name: showHeader
         label: Show header
         widget: boolean
+      - {label: "Body", name: "body", widget: "markdown"}
     extension: md
     format: yaml-frontmatter
