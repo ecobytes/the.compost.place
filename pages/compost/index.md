@@ -1,6 +1,6 @@
 ---
 title: 🌏️ Compost
-description: A post-collaps permacomputing humus
+description: A post-collapse permacomputing humus
 date: 2023-11-16
 # dateUpdated: 2023-11-15
 showHeader: true
