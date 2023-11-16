@@ -26,7 +26,7 @@ jobs:
         run: deno task build
 
       - name: Inject StaticCMS into build
-        run: rsync static/ _site/
+        run: rsync -a static/ _site/
 
       - name: Fix permissions
         run: |
