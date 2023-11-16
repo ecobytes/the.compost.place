@@ -25,6 +25,9 @@ jobs:
         # Change parameters in deno.json
         run: deno task build
 
+      - name: Inject StaticCMS into build
+        run: rsync static/ _site/
+
       - name: Fix permissions
         run: |
           chmod -c -R +rX "_site/" | while read line; do
