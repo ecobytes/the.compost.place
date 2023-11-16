@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: ecobytes/the.compost.place
+publish_mode: editorial_workflow
 media_folder: "static/media"
 public_folder: "/media"
 site_url: https://the.compost.place
