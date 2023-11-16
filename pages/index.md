@@ -1,6 +1,6 @@
 ---
 title: The Compost Place
-description: A post-collaps permacomputing humus
+description: A post-collapse permacomputing humus
 date: 2023-11-15
 # dateUpdated: 2023-11-15
 showHeader: false
