@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: ecobytes/the.compost.place
+media_folder: "pages/images/uploads"
+public_folder: "/images/uploads"
+site_url: https://the.compost.place
+display_url: https://the.compost.place
+logo_url: https://avatars.githubusercontent.com/u/6887626
+search: true # disable when slow
+collections:
+  - name: compost
+    label: Compost
+    folder: public/compost
+    create: true
+    fields:
+      - name: title
+        label: Title
+        widget: string
+      - name: description
+        label: Description
+        widget: string
+      - name: tags
+        label: Tags
+        widget: list
+      - name: date
+        label: Date
+        widget: datetime
+      - name: dateUpdated
+        label: Date updated
+        widget: datetime
+      - name: pinned
+        label: Pinned
+        widget: boolean
+      - name: unlisted
+        label: Unlisted
+        widget: boolean
+      - name: draft
+        label: Draft
+        widget: boolean
+      - name: layout
+        label: Layout
+        widget: select
+        options: ['list', 'log', 'grid']
+        default: list
+      - name: toc
+        label: Table of Contents
+        widget: boolean
+      - name: showHeader
+        label: Show header
+        widget: boolean
+    extension: md
+    format: yaml-frontmatter
