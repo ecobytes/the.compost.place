@@ -1,6 +1,11 @@
 backend:
-  name: github
-  repo: ecobytes/the.compost.place
+  name: gitlab
+  repo: compost/the-place # Path to your GitLab repository
+  auth_type: pkce # Required for pkce
+  app_id: 8a09ab579aaef11884bfb053a01144e71e7fad21cd43cacca741efdcf7f23f13 # Application ID from your GitLab settings
+  api_root: https://lab.allmende.io/api/v4
+  base_url: https://lab.allmende.io
+  auth_endpoint: oauth/authorize
 publish_mode: editorial_workflow
 media_folder: "static/media"
 public_folder: "/media"
