@@ -3,8 +3,6 @@ on:
   push:
     # Change if using a different production branch
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
