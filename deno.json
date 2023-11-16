@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run -Ar --unstable https://deno.land/x/ter/main.ts -i pages -sd",
+    "build": "deno run -Ar --unstable https://deno.land/x/ter/main.ts -i pages",
+    "clean": "rm -rf _site"
+  }
+}
+
